@@ -1,0 +1,11 @@
+server:
+  port: 7002
+
+spring:
+  application:
+    name: spring-cloud-config-client
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: consumer3
